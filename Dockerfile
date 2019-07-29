@@ -4,4 +4,4 @@ COPY server.lua          /
 COPY trigger.lua         /
 COPY databaseService.lua /
 
-CMD ["tarantool", "/serviceAppDocker.lua"]
+CMD ["tarantool", "/server.lua"]
